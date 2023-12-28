@@ -1,0 +1,8 @@
+numpy
+Pillow
+onnxruntime
+opencv-python-headless
+torch
+yolov5
+cvu-python==0.0.2
+vidsz

@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: YOLOv5 Lambda Function
+
+Resources:
+  YOLOv5Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.lambda_handler
+      Runtime: python3.8
+      MemorySize: 1024
+      Timeout: 60
+      CodeUri: .
+      Events:
+        HttpPost:
+          Type: Api
+          Properties:
+            Path: /detect
+            Method: post

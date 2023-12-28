@@ -1,0 +1,4 @@
+models/yolov5.onnx
+images/*
+venv
+```
