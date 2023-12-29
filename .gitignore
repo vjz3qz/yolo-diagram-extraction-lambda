@@ -1,4 +1,7 @@
-models/yolov5.onnx
+models/*
 images/*
 venv
+weights/*
+.DS_Store
+runs/*
 ```

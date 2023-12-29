@@ -1,8 +1,9 @@
-numpy
-Pillow
-onnxruntime
+git+https://github.com/trainyolo/YOLO-ONNX.git
+
 opencv-python-headless
+onnxruntime
+numpy
 torch
 yolov5
-cvu-python==0.0.2
-vidsz
+imread-from-url
+argparse
